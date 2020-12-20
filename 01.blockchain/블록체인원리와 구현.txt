@@ -1,0 +1,28 @@
+1. 블록체인에대한 이해
+
+논문 ‘Bitcoin: A Peer-to-Peer Electronic Cash System
+
+
+
+0) 비트
+1비트 -> 2개의 진공관 -> 0과 1
+1바이트 -> 8비트 -> 1문자
+2바이트 -> 16비트 -> 한글
+
+
+1) 암호화 원리
+SHA-256
+-> 256 비트 고정된 결과 출력 -> 16진수 문자 64자리
+-> 단방향 알고리즘
+-> 
+
+블록이란?
+버전 + 이전블록해쉬값 + 머클루트해쉬값 + 시간 + 비트 + Nonce
+
+
+    int32_t nVersion;
+    uint256 hashPrevBlock;
+    uint256 hashMerkleRoot;
+    uint32_t nTime;
+    uint32_t nBits;
+    uint32_t nNonce;
