@@ -1,0 +1,11 @@
+주피터 확장탭
+pip install jupyter_contrib_nbextensions && jupyter contrib nbextension install --user
+
+자동완성 도우미
+hinterland
+
+예제코드 지원
+Snippets
+
+코드실행시간
+ExececuteTime
